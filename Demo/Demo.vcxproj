@@ -18,6 +18,31 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Armor.h" />
+    <ClInclude Include="..\Belt.h" />
+    <ClInclude Include="..\Boots.h" />
+    <ClInclude Include="..\Character.h" />
+    <ClInclude Include="..\Dice.h" />
+    <ClInclude Include="..\Enchantment.h" />
+    <ClInclude Include="..\Equipable.h" />
+    <ClInclude Include="..\GameObject.h" />
+    <ClInclude Include="..\Helmet.h" />
+    <ClInclude Include="..\Inventory.h" />
+    <ClInclude Include="..\Item.h" />
+    <ClInclude Include="..\ItemContainer.h" />
+    <ClInclude Include="..\Map.h" />
+    <ClInclude Include="..\Observable.h" />
+    <ClInclude Include="..\Ring.h" />
+    <ClInclude Include="..\Shield.h" />
+    <ClInclude Include="..\Weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Character.cpp" />
+    <ClCompile Include="..\Dice.cpp" />
+    <ClCompile Include="..\Map.cpp" />
+    <ClCompile Include="..\Observable.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{C0FD23D8-793B-4CA3-873F-E59333330039}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,8 +170,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
